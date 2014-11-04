@@ -35,7 +35,13 @@
 #
 # Copyright 2014 Your name here, unless otherwise noted.
 #
-class slurm {
+class slurm (
 
+  $version                       = $slurm::params::version
 
+) inherits slurm::params {
+
+  package { 'slurm':
+    ensure => $slurm::params::version,
+  }
 }
