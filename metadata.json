@@ -1,0 +1,14 @@
+{
+  "name": "mrcmbu-slurm",
+  "version": "0.1.0",
+  "author": "Merlin Hartley",
+  "summary": "Installs and configures Slurm for a cluster",
+  "license": "Apache 2.0",
+  "source": "https://github.com/mrcmbu/puppet-slurm",
+  "project_page": "https://github.com/mrcmbu/puppet-slurm",
+  "issues_url": "https://github.com/mrcmbu/puppet-slurm/issues",
+  "dependencies": [
+    {"version_requirement":">= 1.0.0","name":"puppetlabs-stdlib"}
+  ]
+}
+
